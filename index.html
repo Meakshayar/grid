@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      display:grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 7px;
+      background-color: black;
+      height:740px;
+      width: 742px;
+      margin:auto;
+      
+    }
+
+    .red{
+      background-color: #E72F24;
+    }
+    .sec{
+      background-color: #F0F1EC;
+      grid-column: 2/5;
+    }
+
+    .third{
+      background-color: #F0F1EC;
+      grid-column: 1/2;
+      grid-row: 2/4;
+    }
+
+    .four{
+      background-color: #F0F1EC;
+      grid-column: 2/4;
+      grid-row: 2/4;
+    }
+
+    .blue{
+      background-color: #004592;
+    }
+
+    .six{
+      background-color: #F0F1EC;
+      grid-row: 3/5;
+    }
+
+    .seven{
+      background-color: #F0F1EC;;
+    }
+
+    .eight{
+      background-color: #F9D01E ;
+    }
+    
+    .nine{
+      background-color: #004592;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="red item"></div>
+    <div class="sec item"></div>
+    <div class="third item"></div>
+    <div class="four item"></div>
+    <div class="blue item"></div>
+    <div class="six item"></div>
+    <div class="seven item"></div>
+    <div class="eight item"></div>
+    <div class="nine item"></div>
+
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
